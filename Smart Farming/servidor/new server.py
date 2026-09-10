@@ -16,17 +16,17 @@ def split(word):
 def handle_client(client,con):
         print("novo cliente")
         content1 = client.recv(50)
-        content1=str(content1)
-        content1=content1.replace("'","")
-        content1=content1.replace("b","")
+        content1 = str(content1)
+        content1 = content1.replace("'","")
+        content1 = content1.replace("b","")
         print(content1)
 
-        if len(content1) ==0:
+        if len(content1) == 0:
            return
 
         else:
-            if (content1[0:2] == "DA"):#dados esta feito
-                print("cheguei aqui dados")
+            if (content1[0:2] == "DA"):
+                #print("cheguei aqui dados")
                 split1=content1[2:]
                 split1=split1.replace("T","/")
                 split1=split1.replace("Z","")
@@ -68,7 +68,7 @@ def handle_client(client,con):
 
                 
             elif(content1[0:2] == "PR"):
-                print("cheguei aqui primeira")
+                #print("cheguei aqui primeira")
                 IDERRO = int(content1[2:])
                 print(IDERRO)
                 y.acquire()
@@ -82,7 +82,7 @@ def handle_client(client,con):
                 y.release()
 
             elif(content1[0:2] == "ER"):
-                print("cheguei aqui erro")
+                #print("cheguei aqui erro")
                 IDERRO = int(content1[2:])
                 print(IDERRO)
                 y.acquire()
@@ -95,7 +95,7 @@ def handle_client(client,con):
                     client.send(enviar.encode())
                 y.release()
             elif(content1[0:2]=="ST"):
-                print("cheguei aqui start/stop")
+                #print("cheguei aqui start/stop")
                 IDSTART = int(content1[2:])
                 print(IDSTART)
                 y.acquire()
