@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=Sistemadesaude
+comment1.params=
+comment1.target=Sistemadesaude()
+comment2.params=p
+comment2.target=void\ addPessoa(Pessoa)
+comment3.params=
+comment3.target=java.util.ArrayList\ getpessoas()
+comment4.params=d
+comment4.target=java.util.ArrayList\ hospitalizados_por_doenca(Doenca)
+comment5.params=d
+comment5.target=int\ infetados_por_doenca(Doenca)
+comment6.params=d\ mes
+comment6.target=void\ prop_doenca(Doenca,\ int)
+numComments=7

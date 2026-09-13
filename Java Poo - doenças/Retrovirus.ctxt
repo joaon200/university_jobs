@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.target=Retrovirus
+comment1.params=r
+comment1.target=void\ alterarR0(double)
+comment10.params=mes
+comment10.target=Retrovirus\ clone(int)
+comment2.params=nome\ probabilidadeinfecao
+comment2.target=Retrovirus(java.lang.String,\ double)
+comment3.params=
+comment3.target=java.lang.String\ nome()
+comment4.params=
+comment4.target=double\ getR0()
+comment5.params=
+comment5.target=void\ gettempodeinfecao()
+comment6.params=mes
+comment6.target=double\ getcapacidade(int)
+comment7.params=teste
+comment7.target=boolean\ passou(java.util.GregorianCalendar)
+comment8.params=probtosse\ probfebre\ probfebrealta\ probnauseas\ probdiarreia\ probcefaleias\ probdoresmusc\ probcansacoger\ probdifrespiratorias\ narizentupido\ probdoresgarganta\ probperdapalaouolfato\ probdorpeito\ probvomitos\ probespiros\ probolhoshumidos
+comment8.target=void\ adicionarsintomas(int,\ int,\ int,\ int,\ int,\ int,\ int,\ int,\ int,\ int,\ int,\ int,\ int,\ int,\ int,\ int)
+comment9.params=
+comment9.target=java.util.Hashtable\ getsintomas()
+numComments=11

@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Coronavirus
+comment1.params=r
+comment1.target=void\ alterarR0(double)
+comment10.params=
+comment10.target=java.util.Hashtable\ getsintomas()
+comment11.params=mes
+comment11.target=Coronavirus\ clone(int)
+comment2.params=tempinfecao
+comment2.target=void\ alterartempoinfecao(int)
+comment3.params=nome\ probabilidadeinfecao
+comment3.target=Coronavirus(java.lang.String,\ double)
+comment4.params=
+comment4.target=java.lang.String\ nome()
+comment5.params=
+comment5.target=double\ getR0()
+comment6.params=
+comment6.target=int\ gettempodeinfecao()
+comment7.params=mes
+comment7.target=double\ getcapacidade(int)
+comment8.params=teste
+comment8.target=boolean\ passou(java.util.GregorianCalendar)
+comment9.params=probtosse\ probfebre\ probfebrealta\ probnauseas\ probdiarreia\ probcefaleias\ probdoresmusc\ probcansacoger\ probdifrespiratorias\ narizentupido\ probdoresgarganta\ probperdapalaouolfato\ probdorpeito\ probvomitos\ probespiros\ probolhoshumidos
+comment9.target=void\ adicionarsintomas(int,\ int,\ int,\ int,\ int,\ int,\ int,\ int,\ int,\ int,\ int,\ int,\ int,\ int,\ int,\ int)
+numComments=12

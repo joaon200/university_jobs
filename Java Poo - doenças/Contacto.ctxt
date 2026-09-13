@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=Contacto
+comment1.params=coordenadax\ coordenaday
+comment1.target=Contacto(double,\ double)
+comment2.params=dia\ mes\ ano
+comment2.target=void\ adddata(int,\ int,\ int)
+comment3.params=
+comment3.target=double\ getx()
+comment4.params=
+comment4.target=double\ gety()
+comment5.params=
+comment5.target=java.util.GregorianCalendar\ getdatacontacto()
+comment6.params=
+comment6.target=Contacto\ clone()
+numComments=7
