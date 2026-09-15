@@ -4,4 +4,4 @@ VERSÃO ou DATA: 02/2021
 COMO INICIAR O PROJETO:
 AUTORES: João Neto
 
-In this project i am devoloped a system to associate Diseases to persons
+In this project i devoloped a system to associate Diseases to a person
